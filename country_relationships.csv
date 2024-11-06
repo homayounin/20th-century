@@ -1,0 +1,201 @@
+Country1,Country2,Relationship_Type,Strength,Year_Established
+Nigeria,China,rival,1,1921
+Indonesia,Egypt,rival,7,1966
+Russia,Spain,ally,9,1991
+India,Japan,rival,4,1953
+Indonesia,South Africa,neutral,1,1950
+USA,Nigeria,rival,5,1954
+Poland,Egypt,neutral,9,1974
+USA,Egypt,neutral,6,1923
+Brazil,Turkey,neutral,10,2015
+South Africa,Italy,rival,6,1947
+South Africa,India,rival,9,2017
+Australia,Nigeria,neutral,2,1931
+Canada,Saudi Arabia,rival,9,1906
+Indonesia,France,ally,5,1946
+Poland,Sweden,rival,10,1971
+Germany,USA,ally,1,1953
+Nigeria,China,neutral,8,1973
+Spain,China,rival,3,1980
+Saudi Arabia,Russia,neutral,9,1995
+South Africa,Germany,ally,9,1920
+Italy,Nigeria,rival,4,1987
+Poland,Canada,neutral,8,2002
+Indonesia,Mexico,neutral,10,1953
+Sweden,Canada,rival,5,1932
+Poland,India,neutral,1,1950
+South Africa,Germany,neutral,1,1986
+South Africa,Poland,rival,10,1930
+France,UK,neutral,4,1955
+Brazil,South Korea,ally,9,2021
+UK,Canada,ally,4,1929
+France,Germany,ally,3,1955
+China,France,neutral,1,1949
+China,Sweden,neutral,4,1912
+India,Egypt,rival,2,2020
+Sweden,Brazil,neutral,6,1915
+Mexico,Turkey,ally,7,1941
+Sweden,Germany,rival,5,2015
+Turkey,USA,rival,8,1950
+Netherlands,Brazil,rival,2,1973
+Mexico,Nigeria,ally,6,1942
+France,Canada,neutral,3,1933
+UK,Egypt,rival,6,1990
+Turkey,UK,rival,4,1993
+Brazil,USA,ally,10,1941
+South Africa,India,ally,3,1991
+Spain,USA,neutral,6,2005
+Nigeria,Argentina,ally,2,1931
+Australia,Japan,ally,8,1929
+France,Argentina,rival,5,1965
+China,Indonesia,ally,9,1925
+UK,Mexico,neutral,1,1925
+South Africa,Italy,ally,8,2020
+UK,Canada,ally,1,1903
+Indonesia,Nigeria,rival,4,1935
+Egypt,Russia,rival,5,2007
+Japan,USA,neutral,10,1942
+Netherlands,Australia,ally,5,1952
+Indonesia,Poland,neutral,10,1974
+Turkey,Mexico,neutral,10,1997
+Australia,Russia,rival,5,1905
+Saudi Arabia,UK,rival,10,1941
+South Africa,Spain,ally,6,1925
+USA,Japan,rival,3,1932
+Australia,Indonesia,ally,5,1940
+Germany,UK,ally,7,1997
+Japan,Spain,neutral,10,2005
+South Korea,Australia,rival,9,1987
+China,Italy,ally,2,1942
+USA,Australia,ally,6,1933
+Germany,Netherlands,neutral,3,2023
+Australia,Canada,ally,3,2008
+Sweden,UK,rival,10,1963
+Saudi Arabia,USA,neutral,5,1958
+UK,Nigeria,neutral,5,1979
+Japan,Poland,ally,2,1918
+China,Turkey,rival,7,2005
+China,Egypt,rival,6,2008
+Italy,Saudi Arabia,ally,3,2008
+Netherlands,Egypt,neutral,4,2001
+Egypt,UK,ally,3,1951
+Egypt,India,neutral,5,1912
+Germany,Canada,ally,8,1921
+Sweden,Netherlands,neutral,6,1955
+Canada,China,neutral,6,1913
+France,Turkey,ally,2,1949
+Argentina,Netherlands,neutral,10,1956
+Saudi Arabia,USA,ally,10,1918
+Nigeria,China,ally,9,1933
+China,Sweden,rival,2,1964
+Italy,Indonesia,rival,5,2012
+Germany,Saudi Arabia,ally,4,2011
+Italy,Egypt,rival,9,1920
+Italy,South Korea,rival,5,1953
+Germany,Japan,ally,5,1937
+Sweden,Italy,ally,4,1926
+Australia,Poland,rival,10,1909
+Indonesia,Netherlands,neutral,8,1955
+Russia,Spain,ally,10,1997
+South Africa,Turkey,ally,10,1958
+South Africa,Canada,neutral,6,2017
+South Korea,Saudi Arabia,ally,8,1920
+Italy,Germany,neutral,3,1970
+Indonesia,Russia,rival,7,1947
+Turkey,Nigeria,ally,4,1999
+France,Egypt,rival,5,1997
+USA,South Africa,neutral,1,2015
+Poland,South Africa,ally,7,1986
+Netherlands,Mexico,rival,9,1909
+France,USA,neutral,1,1958
+Italy,India,rival,9,1921
+USA,Russia,rival,8,1947
+France,Brazil,ally,8,1930
+Spain,South Africa,rival,1,1973
+Australia,Nigeria,neutral,2,1923
+Brazil,Japan,neutral,4,1985
+Brazil,UK,rival,1,1972
+Russia,UK,neutral,6,1921
+Mexico,Turkey,rival,4,2018
+Mexico,Saudi Arabia,rival,2,1976
+Mexico,Japan,rival,5,2004
+Spain,Canada,rival,7,1932
+Turkey,India,rival,4,1992
+Indonesia,India,rival,2,1928
+Netherlands,Spain,ally,8,1954
+China,Australia,rival,9,2019
+USA,Australia,rival,6,1941
+Egypt,Nigeria,neutral,3,1985
+Mexico,Canada,ally,9,1929
+Egypt,Italy,neutral,4,1981
+South Korea,Brazil,ally,3,1996
+Nigeria,Spain,neutral,10,1947
+USA,South Korea,ally,6,1981
+France,Spain,ally,1,1953
+Italy,India,rival,1,1951
+Brazil,India,neutral,7,1973
+UK,France,rival,3,1968
+France,UK,ally,2,1939
+Japan,Poland,ally,3,1932
+Australia,China,rival,2,1977
+Canada,China,ally,5,1998
+Saudi Arabia,China,rival,6,1966
+Egypt,Australia,neutral,7,1941
+France,Sweden,ally,6,1919
+Canada,Turkey,ally,7,1939
+South Africa,USA,ally,6,1916
+Germany,Spain,ally,7,2004
+Saudi Arabia,Australia,ally,3,1978
+USA,UK,ally,9,1905
+UK,Egypt,neutral,4,2010
+China,Spain,rival,4,1994
+Saudi Arabia,Spain,rival,6,1943
+Nigeria,Netherlands,rival,1,1988
+South Korea,Egypt,rival,4,1938
+South Africa,Spain,rival,6,2011
+Indonesia,USA,ally,5,2020
+Spain,South Korea,rival,4,1930
+Turkey,Poland,rival,3,1979
+Russia,Turkey,ally,9,1957
+South Africa,Sweden,ally,9,1998
+South Africa,Mexico,neutral,2,1987
+France,South Korea,rival,8,1953
+Italy,Turkey,ally,2,1971
+UK,Australia,rival,6,2019
+Germany,Poland,ally,2,1953
+China,Sweden,ally,10,1975
+Spain,Brazil,rival,2,1931
+Turkey,South Africa,rival,6,1968
+Canada,Mexico,rival,7,1927
+Italy,Sweden,ally,2,1961
+Spain,UK,neutral,4,1906
+Turkey,Netherlands,ally,10,2008
+Turkey,Russia,neutral,5,1933
+Poland,Canada,ally,5,1928
+UK,Poland,ally,6,1997
+Japan,Germany,rival,3,1937
+Sweden,South Africa,neutral,1,1970
+Spain,Italy,rival,9,2007
+Nigeria,France,ally,3,1907
+South Africa,France,rival,6,1910
+South Korea,Australia,neutral,1,2016
+Japan,Indonesia,ally,10,1968
+Germany,USA,rival,3,1968
+Australia,Turkey,neutral,3,1960
+Mexico,South Africa,rival,1,1945
+Saudi Arabia,Canada,ally,4,1953
+South Korea,South Africa,neutral,3,1923
+Egypt,Argentina,neutral,5,1920
+Saudi Arabia,Egypt,neutral,3,2012
+Netherlands,Australia,neutral,3,1982
+China,Nigeria,neutral,1,1999
+Egypt,Nigeria,rival,7,2021
+Poland,South Korea,rival,1,2012
+Indonesia,Australia,neutral,2,2014
+Nigeria,Canada,rival,7,1942
+Indonesia,Nigeria,ally,4,1979
+India,Mexico,neutral,2,1961
+Brazil,Germany,rival,5,2016
+Canada,Sweden,rival,8,1977
+Spain,Canada,ally,10,2004
+Sweden,Indonesia,rival,9,1921

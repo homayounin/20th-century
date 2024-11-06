@@ -1,0 +1,128 @@
+Here’s a step-by-step guide to complete the tasks outlined in your directions. Let’s tackle each part systematically:
+
+Step 1: Activate Your Virtual Environment and Launch JupyterLab
+Open the Anaconda Prompt or your terminal.
+Activate your environment:
+bash
+Copy code
+conda activate 20th_century
+Launch JupyterLab:
+bash
+Copy code
+jupyter lab
+Step 2: Navigate to the "Key Events of the 20th Century" Page
+Open a web browser and go to the Key Events of the 20th Century Wikipedia page.
+Note down elements to focus on, such as:
+Major events (headings)
+Dates (subheadings)
+Descriptions (paragraphs or list items)
+Since you’re downloading the entire page, there’s no need to specify elements in detail now.
+
+Step 3: Install Necessary Libraries
+In JupyterLab, create a new notebook and run the following code to install the required libraries using the requirements.txt file.
+python
+Copy code
+!pip install -r requirements.txt
+Ensure your requirements.txt includes libraries like selenium, beautifulsoup4, and pandas, among others.
+Step 4: Download ChromeDriver
+Ensure you have the right version of ChromeDriver that matches your Chrome browser version. You can download it from the ChromeDriver site.
+Install ChromeDriver:
+Place the chromedriver.exe file in a directory included in your system PATH, or specify its location in your code.
+Step 5: Scrape Content from the Page
+Now you will write code to scrape the content from the Wikipedia page. Here’s how:
+
+Create a new notebook in JupyterLab and name it 20th_century_scrape.
+Insert the following code:
+python
+Copy code
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+import time
+
+# Set up the Chrome WebDriver
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+
+# Navigate to the Key Events of the 20th Century page
+url = "https://en.wikipedia.org/wiki/Timeline_of_the_20th_century"
+driver.get(url)
+
+# Wait for the page to load completely
+time.sleep(3)
+
+# Scrape the content of the page
+content = driver.find_element(By.TAG_NAME, "body").text
+
+# Close the driver
+driver.quit()
+
+# Display the scraped content
+print(content)
+Step 6: Save the Scraped Content as a .txt File
+After scraping the content, you can save it into a .txt file:
+
+python
+Copy code
+# Save the content to a .txt file
+with open("20th_century_events.txt", "w", encoding="utf-8") as file:
+    file.write(content)
+Step 7: Push Changes to Your GitHub Repository
+Navigate to your repository folder in the terminal.
+Add changes:
+bash
+Copy code
+git add 20th_century_scrape.ipynb 20th_century_events.txt
+Commit changes:
+bash
+Copy code
+git commit -m "Added web scraping notebook and text file for 20th-century events"
+Push changes:
+bash
+Copy code
+git push origin main  # or the appropriate branch
+Step 8: Save Your Notebook and Send to Your Mentor
+Save the notebook: In JupyterLab, save your work by clicking File -> Save Notebook.
+Send the files: Share 20th_century_scrape.ipynb, 20th_century_events.txt, and a link to your GitHub repository with your mentor.
+Bonus Task: Scrape List of Countries
+For the bonus task, you will want to find a list of countries on a reliable site, such as Wikipedia's List of Countries. You can scrape it using similar methods:
+
+python
+Copy code
+# Sample code to scrape countries from Wikipedia
+url_countries = "https://en.wikipedia.org/wiki/List_of_countries"
+driver.get(url_countries)
+
+# Wait for the page to load
+time.sleep(3)
+
+# Extract countries
+countries_elements = driver.find_elements(By.TAG_NAME, "a")  # Example: Change this to the right tag
+countries = [element.text for element in countries_elements if element.text]
+
+# Filter out empty strings and duplicates
+countries = list(set(countries))
+
+# Save the countries to a .txt file
+with open("countries_list.txt", "w", encoding="utf-8") as file:
+    for country in countries:
+        file.write(f"{country}\n")
+Finding Elements
+When scraping, if you need to find elements, use:
+
+python
+Copy code
+driver.find_elements(By.TAG_NAME, "tag_name")
+Replace "tag_name" with the actual tag you find by inspecting the page (like "li" for list items).
+
+Final Steps
+Save your final notebook and files.
+Ensure everything is pushed to GitHub.
+Communicate with your mentor as required.
+If you have any specific questions or need help with a particular part of this process, feel free to ask!
+
+
+
+
+
+
